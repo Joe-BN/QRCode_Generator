@@ -5,6 +5,7 @@ qr = qrcode.QRCode(
      box_size = 20,
      border = 20
  )
+
 qr.add_data("_____") #add the link or the data that you want here.
 qr.make(fit = True)
 img = qr.make_image(fill_color = "black", back_color = "white")
